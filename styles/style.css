@@ -1,0 +1,75 @@
+.navbarright a {
+    list-style-type: none;
+    margin: 0;
+    padding: 7.5px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 75%;
+    color:black;
+}
+
+.gmail-images a{
+    list-style-type: none;
+    margin: 0;
+    padding: 7.5px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 75%;
+    color: black;
+
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gmail-images{
+    padding-top: 15px;
+
+}
+.navbarright{
+    padding-top: 15px;
+ 
+}
+.navbarleft{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: cneter;
+}
+.apps-acc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.apps{
+   padding-top: 13px;
+   padding-left: 7.5px;
+}
+
+.apps a :hover{
+    border-radius: 100%;
+    background-color: rgba(60,64,67,0.08);
+}
+
+.acc{
+    padding-top: 7.5px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.acc a :hover{
+        border-radius: 100%;
+    background-color: rgba(60,64,67,0.08);
+}
+
+#acc{
+    border-radius: 100%;
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
